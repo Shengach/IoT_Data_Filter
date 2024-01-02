@@ -1,0 +1,135 @@
+Information: Updating design information... (UID-85)
+ 
+****************************************
+Report : timing
+        -path full
+        -delay max
+        -max_paths 1
+Design : IOTDF
+Version: U-2022.12
+Date   : Mon May  8 20:07:18 2023
+****************************************
+
+Operating Conditions: slow   Library: slow
+Wire Load Model Mode: top
+
+  Startpoint: data_r_reg[4][0]
+              (rising edge-triggered flip-flop clocked by clk)
+  Endpoint: clk_gate_sum_r_reg/latch
+            (negative level-sensitive latch clocked by clk)
+  Path Group: clk
+  Path Type: max
+
+  Point                                                   Incr       Path
+  --------------------------------------------------------------------------
+  clock clk (rise edge)                                   0.00       0.00
+  clock network delay (ideal)                             1.00       1.00
+  data_r_reg[4][0]/CK (DFFRX1)                            0.00       1.00 r
+  data_r_reg[4][0]/Q (DFFRX1)                             0.57       1.57 f
+  add_175/B[32] (IOTDF_DW01_add_1)                        0.00       1.57 f
+  add_175/U1809/Y (NAND2XL)                               0.17       1.73 r
+  add_175/U1105/Y (OAI21XL)                               0.13       1.86 f
+  add_175/U1228/Y (AOI21XL)                               0.21       2.07 r
+  add_175/U1082/Y (CLKINVX1)                              0.09       2.15 f
+  add_175/U1072/Y (NAND2X1)                               0.08       2.23 r
+  add_175/U1071/Y (NAND2X1)                               0.07       2.30 f
+  add_175/U1143/Y (AOI21X1)                               0.13       2.42 r
+  add_175/U1497/Y (OAI21XL)                               0.09       2.51 f
+  add_175/U1181/Y (AOI21XL)                               0.18       2.70 r
+  add_175/U1142/Y (CLKINVX1)                              0.08       2.78 f
+  add_175/U1099/Y (NAND2X1)                               0.09       2.88 r
+  add_175/U1098/Y (NAND2X2)                               0.06       2.94 f
+  add_175/U1169/Y (AOI21X1)                               0.15       3.08 r
+  add_175/U1160/Y (CLKINVX1)                              0.08       3.16 f
+  add_175/U1159/Y (NAND2X1)                               0.09       3.25 r
+  add_175/U1112/Y (NAND2X2)                               0.06       3.31 f
+  add_175/U1127/Y (AOI21X1)                               0.15       3.46 r
+  add_175/U1130/Y (CLKINVX1)                              0.08       3.53 f
+  add_175/U1129/Y (NAND2X1)                               0.09       3.62 r
+  add_175/U1100/Y (NAND2X2)                               0.06       3.69 f
+  add_175/U1128/Y (AOI21X1)                               0.15       3.84 r
+  add_175/U1110/Y (OAI21X1)                               0.10       3.94 f
+  add_175/U1205/Y (AOI21XL)                               0.25       4.19 r
+  add_175/U1561/Y (OAI21X1)                               0.12       4.31 f
+  add_175/U1206/Y (AOI21XL)                               0.25       4.56 r
+  add_175/U1562/Y (OAI21X1)                               0.12       4.68 f
+  add_175/U1207/Y (AOI21XL)                               0.25       4.93 r
+  add_175/U1563/Y (OAI21X1)                               0.12       5.05 f
+  add_175/U1208/Y (AOI21XL)                               0.22       5.27 r
+  add_175/U1877/Y (OAI21XL)                               0.14       5.41 f
+  add_175/U1209/Y (AOI21XL)                               0.26       5.67 r
+  add_175/U1565/Y (OAI21X1)                               0.12       5.78 f
+  add_175/U1210/Y (AOI21XL)                               0.25       6.04 r
+  add_175/U1566/Y (OAI21X1)                               0.12       6.15 f
+  add_175/U1211/Y (AOI21XL)                               0.22       6.37 r
+  add_175/U1887/Y (OAI21XL)                               0.14       6.51 f
+  add_175/U1212/Y (AOI21XL)                               0.23       6.74 r
+  add_175/U1943/Y (OAI21XL)                               0.14       6.88 f
+  add_175/U1213/Y (AOI21XL)                               0.26       7.13 r
+  add_175/U1569/Y (OAI21X1)                               0.12       7.25 f
+  add_175/U1214/Y (AOI21XL)                               0.25       7.50 r
+  add_175/U1570/Y (OAI21X1)                               0.12       7.62 f
+  add_175/U1215/Y (AOI21XL)                               0.22       7.84 r
+  add_175/U1899/Y (OAI21XL)                               0.14       7.98 f
+  add_175/U1216/Y (AOI21XL)                               0.26       8.24 r
+  add_175/U1572/Y (OAI21X1)                               0.12       8.36 f
+  add_175/U1217/Y (AOI21XL)                               0.25       8.61 r
+  add_175/U1573/Y (OAI21X1)                               0.12       8.73 f
+  add_175/U1218/Y (AOI21XL)                               0.25       8.98 r
+  add_175/U1574/Y (OAI21X1)                               0.12       9.10 f
+  add_175/U1219/Y (AOI21XL)                               0.22       9.32 r
+  add_175/U1915/Y (OAI21XL)                               0.14       9.45 f
+  add_175/U1220/Y (AOI21XL)                               0.26       9.71 r
+  add_175/U1560/Y (OAI21X1)                               0.12       9.83 f
+  add_175/U1221/Y (AOI21XL)                               0.22      10.05 r
+  add_175/U1867/Y (OAI21XL)                               0.14      10.19 f
+  add_175/U1222/Y (AOI21XL)                               0.26      10.45 r
+  add_175/U1111/Y (OAI21X1)                               0.13      10.57 f
+  add_175/U1223/Y (AOI21X1)                               0.16      10.73 r
+  add_175/U1114/Y (CLKINVX1)                              0.08      10.81 f
+  add_175/U1113/Y (NAND2X1)                               0.09      10.90 r
+  add_175/U1102/Y (NAND2X2)                               0.07      10.96 f
+  add_175/U1152/Y (AOI21X1)                               0.11      11.08 r
+  add_175/U1378/Y (CLKINVX1)                              0.07      11.14 f
+  add_175/U1377/Y (NAND2X1)                               0.09      11.23 r
+  add_175/U1101/Y (NAND2X2)                               0.06      11.29 f
+  add_175/U1600/Y (AOI21X1)                               0.18      11.47 r
+  add_175/U1080/Y (OAI21X2)                               0.10      11.57 f
+  add_175/U1224/Y (AOI21XL)                               0.18      11.75 r
+  add_175/U10/Y (XOR2X1)                                  0.15      11.90 r
+  add_175/SUM[127] (IOTDF_DW01_add_1)                     0.00      11.90 r
+  U2182/Y (INVXL)                                         0.07      11.97 f
+  U2212/Y (OR2X2)                                         0.21      12.18 f
+  U4435/Y (NAND3BX1)                                      0.15      12.33 r
+  clk_gate_sum_r_reg/EN (SNPS_CLOCK_GATE_HIGH_IOTDF_0)
+                                                          0.00      12.33 r
+  clk_gate_sum_r_reg/latch/D (TLATNX4)                    0.00      12.33 r
+  data arrival time                                                 12.33
+
+  clock clk (fall edge)                                   6.00       6.00
+  clock network delay (ideal)                             1.00       7.00
+  clock uncertainty                                      -0.10       6.90
+  clk_gate_sum_r_reg/latch/GN (TLATNX4)                   0.00       6.90 f
+  time borrowed from endpoint                             5.43      12.33
+  data required time                                                12.33
+  --------------------------------------------------------------------------
+  data required time                                                12.33
+  data arrival time                                                -12.33
+  --------------------------------------------------------------------------
+  slack (MET)                                                        0.00
+
+  Time Borrowing Information
+  --------------------------------------------------------------
+  clk nominal pulse width                                 6.00   
+  library setup time                                     -0.10   
+  --------------------------------------------------------------
+  max time borrow                                         5.90   
+  --------------------------------------------------------------
+  actual time borrow                                      5.43   
+  clock uncertainty                                      -0.10   
+  --------------------------------------------------------------
+  time given to startpoint                                5.33   
+  --------------------------------------------------------------
+
+
+1

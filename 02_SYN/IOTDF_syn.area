@@ -1,0 +1,30 @@
+ 
+****************************************
+Report : area
+Design : IOTDF
+Version: U-2022.12
+Date   : Mon May  8 20:07:18 2023
+****************************************
+
+Library(s) Used:
+
+    slow (File: /home/raid7_2/course/cvsd/CBDK_IC_Contest/CIC/SynopsysDC/db/slow.db)
+
+Number of ports:                         1648
+Number of nets:                          8339
+Number of cells:                         6411
+Number of combinational cells:           5680
+Number of sequential cells:               677
+Number of macros/black boxes:               0
+Number of buf/inv:                        981
+Number of references:                      97
+
+Combinational area:              42833.888393
+Buf/Inv area:                     3447.419348
+Noncombinational area:           21808.194504
+Macro/Black Box area:                0.000000
+Net Interconnect area:      undefined  (No wire load specified)
+
+Total cell area:                 64642.082897
+Total area:                 undefined
+1
